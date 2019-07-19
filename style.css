@@ -53,6 +53,8 @@ body {
     width: 100%;
 }
 
+/*Start of nav styling*/
+
 .container {
     display: flex;
     flex-direction: row; 
@@ -106,37 +108,26 @@ body {
      padding: 10px;
  }
 
+ #nav a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+ }
 
 main {
     display: flex;
     flex-direction: row; 
 }
 
-#wrapper-left {
-    width: 35%;
-    background-color: pink;
-    padding: 10px 10px 10px 150px
-}
+/*End of Nav Styles*/
 
 .bold {
     font-weight: bold;
 }
 
-.search-results {
-    background-color: aquamarine;
-    width: 90%;
-    padding-top: 30px;
-}
-
-.sr-link {
-    font-size: 14px;
-    padding: 5px 10px 5px 0;
-    color: #A5C9B0;
-}
-
-.sr-summary {
-    font-size: 14px;
-    padding: 5px 10px 5px 0;
+#wrapper-left {
+    width: 35%;
+    background-color: pink;
+    padding: 10px 10px 10px 150px
 }
 
 #wrapper-left a {
@@ -153,14 +144,73 @@ main {
     background-color: blueviolet;
 }
 
+#search-number p {
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+    padding: 10px 5px 0px 160px;
+}
+
+#top-modules-container {
+    width: 80%;
+    display: inline-flex;
+    padding-left: 20px;
+}
+
+#top-modules-left {
+    padding: 15px 15px 15px 25px;
+    width: 35%;
+}
+
+#top-modules-left p {
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+    padding: 5px 0 15px 0;
+}
+
+#top-modules-right {
+    background-color: pink;
+    padding: 15px 15px 15px 25px;
+    width: 35%;
+}
+
+#top-modules-right p {
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+    padding: 5px 0 20px 0;
+}
+
+#top-more-results a {
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+#dropdown img {
+    padding: 10px;
+}
+.search-results {
+    background-color: aquamarine;
+    width: 90%;
+    padding-top: 30px;
+}
+
+.sr-link {
+    font-size: 14px;
+    padding: 5px 10px 5px 0;
+    color: #A5C9B0;
+}
+
+.sr-summary {
+    font-size: 14px;
+    padding: 5px 10px 5px 0;
+    color: rgb(110, 110, 110);
+}
+
 #top-footer {
     display: block;
     background: #F2F2F2;
     font-size: 15px;
     border-bottom: 1px solid lightgrey;
-    width: 100%;
-    position: absolute;
-    bottom: 52px;   
+    width: 100%;   
     color: rgb(110, 110, 110);
 }
 
@@ -171,8 +221,6 @@ main {
 #bottom-footer {
     display: block;
     background: #F2F2F2;
-    position: absolute;
-    bottom: 0;   
     color: rgb(110, 110, 110);
     font-size: 12px;
     width:100%;
@@ -186,7 +234,7 @@ main {
 }
 
 #bottom-footer li {
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px 0px 15px;
 }
 
 #bottom-footer a {
