@@ -50,6 +50,7 @@ table {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
 .container {
@@ -92,7 +93,7 @@ body {
 #nav {
     display: flex;
     padding: 10px 10px 10px 150px;
-    font-size: 14px;
+    font-size: 13px;
     border-bottom: 1px solid lightgray;
 }
 
@@ -112,8 +113,39 @@ main {
 }
 
 #wrapper-left {
-    width: 40%;
+    width: 35%;
     background-color: pink;
+    padding: 10px 10px 10px 150px
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.search-results {
+    background-color: aquamarine;
+    width: 90%;
+    padding-top: 30px;
+}
+
+.sr-link {
+    font-size: 14px;
+    padding: 5px 10px 5px 0;
+    color: #A5C9B0;
+}
+
+.sr-summary {
+    font-size: 14px;
+    padding: 5px 10px 5px 0;
+}
+
+#wrapper-left a {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#wrapper-left a:hover {
+    text-decoration: underline;
 }
 
 #wrapper-right {
@@ -121,22 +153,43 @@ main {
     background-color: blueviolet;
 }
 
-.top-footer {
+#top-footer {
     display: block;
     background: #F2F2F2;
-    padding: 0px 3px 0px 42px;
-    color: rgb(110, 110, 110);
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    position: absolute;
+    bottom: 52px;   
+    color: rgb(110, 110, 110);
 }
 
-.bottom-footer {
+#top-footer p {
+    padding: 15px 20px 15px 170px;
+}
+
+#bottom-footer {
+    display: block;
     background: #F2F2F2;
-    margin-right: 15px;
+    position: absolute;
+    bottom: 0;   
+    color: rgb(110, 110, 110);
+    font-size: 12px;
+    width:100%;
 }
 
-.bottom-footer ul {
+#bottom-footer ul {
     display: flex; 
     flex-direction: row;
+    padding: 15px 20px 15px 150px;
+
+}
+
+#bottom-footer li {
+    padding: 5px 15px 5px 15px;
+}
+
+#bottom-footer a {
+    color: rgb(110, 110, 110);
+    text-decoration: none;
 }
