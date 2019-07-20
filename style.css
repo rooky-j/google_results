@@ -70,15 +70,16 @@ body {
 .container input {
         width: 580px;
         height: 45px;
-        padding: 0 20 0 20;
+        padding: 0 20px 0 20px;
         border-radius: 25px;
         border: 1px solid lightgray;
         outline: none;
         font-size: 16px;
-        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png);
-        background-size: 2.5%;
-        background-repeat: no-repeat;
-        background-position: 540px 15px;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png), url(https://cdn1.iconfinder.com/data/icons/toolbar-signs/512/search-512.png);
+        background-size: 2.4%, 2.5%;
+        background-repeat: no-repeat, no-repeat;
+        background-position: 545px 13px, 580px 15px;
+        
 }
 
 .mh-right {
@@ -113,6 +114,10 @@ body {
     color: rgb(110, 110, 110);
  }
 
+ #nav a:hover {
+     color: #2891F4;
+ }
+
 main {
     display: flex;
     flex-direction: row; 
@@ -126,22 +131,16 @@ main {
 
 #wrapper-left {
     width: 35%;
-    background-color: pink;
     padding: 10px 10px 10px 150px
 }
 
 #wrapper-left a {
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
 }
 
 #wrapper-left a:hover {
     text-decoration: underline;
-}
-
-#wrapper-right {
-    width: 30%; 
-    background-color: blueviolet;
 }
 
 #search-number p {
@@ -152,25 +151,25 @@ main {
 
 #top-modules-container {
     width: 80%;
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     padding-left: 20px;
 }
 
 #top-modules-left {
     padding: 15px 15px 15px 25px;
-    width: 35%;
+    width: 40%;
 }
 
 #top-modules-left p {
-    font-size: 14px;
+    font-size: 15px;
     color: rgb(110, 110, 110);
     padding: 5px 0 15px 0;
 }
 
 #top-modules-right {
-    background-color: pink;
     padding: 15px 15px 15px 25px;
-    width: 35%;
+    width: 40%;
 }
 
 #top-modules-right p {
@@ -186,17 +185,18 @@ main {
 
 #dropdown img {
     padding: 10px;
+    position: relative;
+    left: -20px;
 }
 .search-results {
-    background-color: aquamarine;
     width: 90%;
-    padding-top: 30px;
+    padding-top: 30px;;
 }
 
 .sr-link {
-    font-size: 14px;
+    font-size: 15px;
     padding: 5px 10px 5px 0;
-    color: #A5C9B0;
+    color: #00591E;
 }
 
 .sr-summary {
@@ -205,6 +205,76 @@ main {
     color: rgb(110, 110, 110);
 }
 
+#sr-extra {
+    font-size: 14px; 
+    color: rgb(110, 110, 110);
+}
+
+#videos-title {
+    padding: 25px 20px 20px 20px;
+    color: #210DAD;
+}
+#videos {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+}
+.video-preview {
+    width: 30%;
+    display: inline-block;
+    padding: 10px; 
+}
+
+.video-preview a {
+    font-size: 16px; 
+}
+
+.video-preview p {
+    color: rgb(110, 110, 110);
+}
+
+.channel-name {
+    font-size: 14px;
+}
+
+.youtube {
+    color: #00591E;
+}
+
+.youtube-small-text {
+    font-size: 12px;
+}
+
+#other-searches-title {
+    font-size: 18px;
+    padding:30px 0 10px 20px;
+    color: #222222;
+}
+
+#other-searches-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+
+#other-searches-container ul {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 10px;
+}
+
+#other-searches-container li {
+    padding: 5px;
+}
+
+#other-searches-container a {
+    font-size: 14px;
+}
+
+#page-numbers {
+    padding: 10px 0px 5px 150px;
+}
 #top-footer {
     display: block;
     background: #F2F2F2;
@@ -241,3 +311,15 @@ main {
     color: rgb(110, 110, 110);
     text-decoration: none;
 }
+
+#wrapper-right {
+    width: 23%; 
+    height: 600px;
+    background-color: blueviolet;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+}
+
+
