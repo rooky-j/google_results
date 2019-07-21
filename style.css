@@ -312,14 +312,125 @@ main {
     text-decoration: none;
 }
 
+#bottom-footer a:hover {
+    color: black;
+}
+
 #wrapper-right {
-    width: 23%; 
+    width: 25%; 
     height: 600px;
-    background-color: blueviolet;
     border: solid 1px lightgrey;
     border-radius: 10px;
-    padding: 30px;
     margin: 20px;
 }
 
+#company-title {
+    border-bottom: solid 1px lightgrey;
+    padding: 50px 20px 20px 20px;
+    height: 80px;
+}
 
+#company-title h2 {
+    font-size: 28px;
+}
+
+#company-title h4 {
+    color: rgb(110, 110, 110);
+    position: relative;
+    top: -80px;
+}
+
+#company-title img {
+    position: relative;
+    top: -50px;
+    left: 250px;
+}
+
+#company-website {
+    padding: 15px 15px 15px 20px;
+    border-bottom: solid 1px lightgrey;
+}
+
+#company-website a {
+    text-decoration: none;
+    padding: 20px;
+    position: relative;
+    top: -5px;
+}
+
+#company-website a:hover {
+    text-decoration: underline;
+}
+
+#company-info {
+    padding: 10px;
+}
+
+#company-info p {
+    padding: 5px;
+    font-size: 14px;
+}
+
+#company-info a {
+    text-decoration: none; 
+}
+
+#company-info a:hover {
+    text-decoration: underline;
+}
+
+.right-title {
+    font-size: 18px;
+    padding: 20px 0 10px 15px;
+}
+#social-profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.profile img {
+    width: 30px;
+    padding: 5px 5px 5px 5px;
+}
+
+.profile a{
+    text-decoration: none;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+#people-search-for {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.other-searches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px
+}
+
+.other-searches img {
+    padding: 10px;
+}
+
+.other-searches a{
+    text-decoration: none;
+}
+
+.other-searches a:hover {
+    text-decoration: underline;
+}
